@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    cursor: url("../img/mata_insecto.png") 30 30, auto;
+}
+.insecto0{
+    width: 50px;
+    height: 50px;
+}
+img.insecto{
+    width: 100px;
+    height: 100px;
+}
+
+.insecto1{
+    width: 70px;
+    height: 70px;
+}
+.fundo0{
+    background: url("../img/fundo0.png") no-repeat;
+}
+.fundo1{
+    background: url("../img/fundo1.png") no-repeat;
+}
+.fundo2{
+    background: url("../img/fundo2.png") no-repeat;
+}
+.fundo3{
+    background: url("../img/fundo3.png") no-repeat;
+}
+.fundo4{
+    background: url("../img/fundo4.png") no-repeat;
+}
+.fundo5{
+    background: url("../img/fundo5.png") no-repeat;
+}
+.escala0{
+ transform: scalex(1);
+}
+.escala1{
+    transform: scalex(-1);
+}
+#painel{
+    position: absolute;
+    width: 190px;
+    padding: 10px 0px 10px 30px;
+    background-color: #fff;
+    opacity: 0.8;
+    bottom: 0px;
+    border-top: #000 solid;
+    border-right: #000 solid;
+}
+#vida{
+    padding: 5px;
+}
+#vida img{
+    padding-right: 5px;
+}
+.resultado{
+    background: url("../img/fundo.png");
+    margin-bottom: 60px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+button#reinicia{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+    border-left: -50px;
+}
+#botao{
+    display: flex;
+    justify-content: center;
+}
+h1{
+color: #fff;
+font-size: 90px;
+font-family: 'Courier New', Courier, monospace;
+}
+select#seletor{
+    display: block;
+    margin-top: 30px;;
+    width: 160px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.emp{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.emp1{
+    margin-top: 15%;
+}

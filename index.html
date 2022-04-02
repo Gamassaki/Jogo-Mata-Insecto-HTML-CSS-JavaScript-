@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo - Mata Insecto</title>
+    <link type="text/css" rel="stylesheet" href="css/estilo.css">
+    <script src="js/estilojs.js"></script>
+    <script>
+        function iniciarjogo(){
+            var nivel = document.getElementById("seletor").value;
+            if(nivel == ''){
+                alert(" Seleciona um nivel para iniciar o jogo ");
+                return false;
+            }
+            else{
+                window.location.href = "app.html?" + nivel;
+            }
+        }
+    </script>
+</head>
+<body class=" emp1 resultado" >
+    <div>
+        <div >
+            <h1>Mata</h1>
+            <h1>Insecto</h1>
+        </div>
+    
+        <div>
+            <select name="" id="seletor">
+                <option value="">-- Seleciona o Nivel --</option>
+                <option value="normal">Normal</option>
+                <option value="insectesida">Insectesida</option>
+                <option value="dificil">Dificil</option>
+                <option value="casa_assombrada">Casa Assombrada</option>
+            </select>
+            <button class="emp" onclick="iniciarjogo()" id="reinicia">Jogar</button>
+        </div>
+    </div>
+</body>
+</html> 
